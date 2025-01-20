@@ -1,0 +1,29 @@
+{
+  "name": "Tipos de estabelecimento",
+  "path": "/tipos-de-estabelecimento",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BodyContent.tsx",
+        "content": "<h2>\n  Serena: Energia limpa e economia na conta de luz\n</h2>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<span>35%</span>\n<p>\n  Até 35% de economia no 1º ano energia solar e eólica\n</p>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<h3>\n  Serena: Energia limpa e economia na conta de luz\n</h3>\n<ul>\n  <li>Contratação digital</li>\n  <li>Não é preciso instalar placas solares</li>\n  <li>Energia entregue do mesmo jeito, pela sua distribuidora</li>\n  <li>Você só paga o que consome</li>\n</ul>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

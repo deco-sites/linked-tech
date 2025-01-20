@@ -1,1 +1,8 @@
-{"__resolveType":"site/sections/Footer.tsx"}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "imageSrc": "https://data.decoassets.com/linked-tech/2273ad0a-5fe7-4e08-bbb9-8f800853ea1a/logo-footer.png",
+  "imageAlt": "Linked Tech",
+  "imageTitle": "Linked Tech",
+  "copyright": "Todos os direitos reservados 2024",
+  "address": "Rua Gomes de Carvalho, 1.609 Vila Olímpia, São Paulo, SP"
+}

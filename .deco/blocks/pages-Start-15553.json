@@ -3,12 +3,218 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Banner.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Gallery.tsx",
+        "items": [
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/f69d159a-114a-49a1-973e-3c28f97eba24/gallery-01.png",
+            "title": "Aumente a eficiência",
+            "imageAlt": "Aumente a eficiência",
+            "imageTitle": "Aumente a eficiência",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar."
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/93756508-8c51-4c67-83ef-3d0a23a58cba/gallery-02.png",
+            "title": "Evite o desperdício",
+            "imageAlt": "Evite o desperdício",
+            "imageTitle": "Evite o desperdício",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar."
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/e4486fd5-5bea-42e8-8912-f15062a10826/gallery-03.png",
+            "title": "Organize suas contas",
+            "imageAlt": "Organize suas contas",
+            "imageTitle": "Organize suas contas",
+            "description": "Na linked é possível controlar o estoque e planejar as compras com antecedência."
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5df5b3bc-7825-4038-98ec-c0d0f22ea66e/gallery-04.png",
+            "title": "Conheça melhor seu negócio",
+            "imageAlt": "Conheça melhor seu negócio",
+            "imageTitle": "Conheça melhor seu negócio",
+            "description": "Do prato mais vendido ao lucro em cada prato. A linked oferece relatórios diversos."
+          }
+        ],
+        "template": "Content"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Establishments.tsx",
+        "list": [
+          {
+            "label": "A la carte"
+          },
+          {
+            "label": "Bar"
+          },
+          {
+            "label": "Cafeteria"
+          },
+          {
+            "label": "Fast-food"
+          },
+          {
+            "label": "Padaria"
+          },
+          {
+            "label": "Pizzaria"
+          },
+          {
+            "label": "Self-Service"
+          },
+          {
+            "label": "Redes e franquias"
+          },
+          {
+            "label": "Outros"
+          }
+        ],
+        "items": [
+          {
+            "label": "A la carte"
+          },
+          {
+            "label": "Bar"
+          },
+          {
+            "label": "Cafeteria"
+          },
+          {
+            "label": "Fast-food"
+          },
+          {
+            "label": "Padaria"
+          },
+          {
+            "label": "Pizzaria"
+          },
+          {
+            "label": "Self-Service"
+          },
+          {
+            "label": "Sorveteria"
+          },
+          {
+            "label": "Redes e franquias"
+          },
+          {
+            "label": "Outros"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PlansOverviewMain.tsx",
+        "mainTitle": "Aqui você monta o plano<br/> ideal para o seu negócio"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PlansOverviewCardGrid.tsx",
+        "step": 1,
+        "title": "Você escolhe o plano",
+        "description": "Duas opções para seu estabelecimento<br/> economizar, vender e lucrar mais.",
+        "button": "Compare os planos",
+        "plans": [
+          {
+            "list": [
+              "Online",
+              "PDV"
+            ],
+            "title": "Essencial",
+            "icon": "https://data.decoassets.com/linked-tech/adbc5010-7b0a-4928-bfdc-a49130ddfa80/plano-essencial.png"
+          },
+          {
+            "list": [
+              "Online / Offline",
+              "PDV",
+              "Gestão",
+              "Contabilidade"
+            ],
+            "title": "Total",
+            "icon": "https://data.decoassets.com/linked-tech/ae60547a-20ce-4358-87d8-df0a860b3b75/plano-total.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PlansOverviewListGrid.tsx",
+        "step": 2,
+        "title": "Você escolhe<br/> os opcionais",
+        "description": "Incremente a gestão e operação do<br/> estabelecimento com nossos opcionais.",
+        "button": "Veja em detalhes",
+        "optionals": [
+          {
+            "icon": "https://data.decoassets.com/linked-tech/1078c36d-1a53-4b2f-a3d3-bd9bda646a8c/opcional-link-pagamentos.png",
+            "text": "Link de pagamentos"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/0d5f794a-22ab-47e9-8292-81796bf73a75/opcional-monitor-de-preparos-kds.png",
+            "text": "Monitor de preparos KDS"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/5758d9fb-5642-469d-b2ae-a933d3ec9635/opcional-app-delivery.png",
+            "text": "App delivery"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/9720ce95-71e3-4be2-91e1-5fbf0f9db334/opcional-inteligencia-de-dados.png",
+            "text": "Inteligência de dados"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PlansOverviewCascadeGrid.tsx",
+        "step": 3,
+        "title": "Por fim, escolhe<br/> as integrações",
+        "description": "Os principais serviços do mercado<br/> estão aqui.  A lista não pára de crescer.",
+        "button": "Veja a lista completa",
+        "integrations": [
+          {
+            "icon": "https://data.decoassets.com/linked-tech/5009bfc5-adab-4652-beea-805816bac081/integracao-ifood.png"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/45bfd5ce-14d7-4b98-9249-5cfc7a2a3bf1/integracao-rappi.png"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/9e48efee-62ae-456e-9b6a-4ea95c5f952c/integracao-abrahao.png"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/39a2c8fe-7eec-4af2-bf38-32f2f6eefaf1/integracao-delivery-direto.png"
+          },
+          {
+            "text": "+28"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

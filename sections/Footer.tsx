@@ -2,40 +2,46 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 interface Props {
-  href?: string;
-  image?: ImageWidget;
-  alt?: string;
-  width?: number;
-  height?: number;
-  text?: string;
+  imageSrc?: ImageWidget;
+  imageAlt?: string;
+  imageTitle?: string;
+  copyright?: string;
+  address?: string;
 }
 
 function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
+  imageSrc,
+  imageAlt,
+  imageTitle,
+  copyright,
+  address,
 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
+    <div class="
+      bg-linked-primary
+      w-full
+    ">
+      <div class="
+        mx-auto
+        w-full
+        pt-24
+        pb-12
+      ">
+        {imageSrc && (
           <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
+            class="block mx-auto"
+            src={imageSrc || ""}
+            alt={imageAlt || ""}
+            title={imageTitle || ""}
+            height={51}
+            width={253}
           />
         )}
-      </a>
+        <span class="border-b border-neutrals-white-20 block text-center text-white text-[11px] xl:text-[12px] pt-4 pb-12 font-secondary">{copyright}</span>
+        <address class="block text-center text-white not-italic text-[11px] xl:text-[12px] pt-8 w-[284px] xl:w-full mx-auto font-secondary">
+          {address || ""}
+        </address>
+      </div>
     </div>
   );
 }

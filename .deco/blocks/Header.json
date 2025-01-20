@@ -1,0 +1,36 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "imageSrc": "https://data.decoassets.com/linked-tech/e23eeb42-3e49-489b-a71d-b79bfcbee6ec/logo-header.png",
+  "imageAlt": "Linked Food",
+  "imageTitle": "Linked Food",
+  "menu": [
+    {
+      "onlyMobile": false,
+      "pageName": "Tipos de Estabelecimento",
+      "pageUrl": "/tipos-de-estabelecimento"
+    },
+    {
+      "onlyMobile": false,
+      "pageName": "Planos",
+      "pageUrl": "/planos"
+    }
+  ],
+  "menuMobile": [
+    {
+      "pageName": "Sobre a Linked",
+      "pageUrl": "/sobre-a-linked"
+    },
+    {
+      "pageName": "Trabalhe conosco",
+      "pageUrl": "/trabalhe-conosco"
+    },
+    {
+      "pageName": "Contato",
+      "pageUrl": "/contato"
+    },
+    {
+      "pageName": "Termos de uso",
+      "pageUrl": "/termos-de-uso"
+    }
+  ]
+}
