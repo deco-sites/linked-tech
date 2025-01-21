@@ -35,6 +35,7 @@ function Menu({
     <>
       <div class="
         border-b
+        border-neutrals-white-20
         bg-linked-primary
         h-[80px]
         fixed

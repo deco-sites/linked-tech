@@ -213,6 +213,32 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/SupportInfo.tsx",
+        "image": "https://data.decoassets.com/linked-tech/909b4a4c-ea78-4a1f-bfad-ac1042a09c05/support.png",
+        "title": "Suporte completo em<br/> todos os planos",
+        "list": [
+          {
+            "icon": "https://data.decoassets.com/linked-tech/d738d350-96cd-4ba6-ba25-60ec55f8e705/support-icon-01.png",
+            "text": "Atendimento 24x7"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/5131fdba-556c-4356-a5dc-46fa3a7fbdbc/support-icon-02.png",
+            "text": "Treinamentos ilimitados"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/9412ac9b-6aaa-41a9-9883-5929a8a214ad/support-icon-03.png",
+            "text": "Configuração e montagem do 1º cardápio"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/2d90e5b8-be2b-400a-b48b-c7c8ea5a6730/support-icon-04.png",
+            "text": "Equipe própria"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     }

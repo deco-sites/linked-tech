@@ -60,7 +60,7 @@ function Gallery({
           {item.title && (
             <strong class="
               block
-              font-normal leading-[110%] text-[20px] text-white
+              font-normal leading-[110%] text-[20px] text-primary-light
               py-[24px]
             ">{item.title}</strong>
           )}
@@ -79,7 +79,7 @@ function Gallery({
           {item.description && (
             <p class="
               py-[24px]
-              font-light leading-[140%] text-[16px] text-white
+              font-light leading-[140%] text-[16px] text-primary-light
             ">{item.description}</p>
           )}
         </li>

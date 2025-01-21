@@ -19,6 +19,7 @@ function Footer({
   return (
     <div class="
       bg-linked-primary
+      border-t border-neutrals-white-20
       w-full
     ">
       <div class="

@@ -11,6 +11,28 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "imageSrc": "https://data.decoassets.com/linked-tech/ae60547a-20ce-4358-87d8-df0a860b3b75/plano-total.png",
+        "imageAlt": "Tipos de estabelecimento",
+        "imageTitle": "Tipos de estabelecimento",
+        "title": "Tipos de <strong>estabelecimento</strong>",
+        "description": "Descrição tipos de estabelecimento<br/> tipos de estabelecimento tipos de estabelecimento.",
+        "align": "Left"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "type": "Large",
+        "imageSrc": "https://data.decoassets.com/linked-tech/7e5878c7-6a06-4610-a1db-e91ad603dcee/hero.jpg",
+        "imageAlt": "Hero image",
+        "imageTitle": "Hero image"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/BodyContent.tsx",
         "content": "<h2>\n  Serena: Energia limpa e economia na conta de luz\n</h2>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<span>35%</span>\n<p>\n  Até 35% de economia no 1º ano energia solar e eólica\n</p>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<h3>\n  Serena: Energia limpa e economia na conta de luz\n</h3>\n<ul>\n  <li>Contratação digital</li>\n  <li>Não é preciso instalar placas solares</li>\n  <li>Energia entregue do mesmo jeito, pela sua distribuidora</li>\n  <li>Você só paga o que consome</li>\n</ul>"
       }
