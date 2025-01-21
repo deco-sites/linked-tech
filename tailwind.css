@@ -6,6 +6,8 @@
 @tailwind utilities;
 
 :root {
+  --primary-medium: #3BEDB2;
+
   --neutrals-dark-100: #003330;
   --neutrals-dark-80: rgba(0, 51, 48, 0.80);
 }
@@ -178,6 +180,16 @@
   animation-delay: 6s;
 }
 /* Banner */
+
+
+/* Title Page */
+.title-page {}
+
+.title-page h2 strong {
+  color: var(--primary-medium);
+  font-weight: inherit;
+}
+/* Title Page */
 
 
 /* Section Gallery */
