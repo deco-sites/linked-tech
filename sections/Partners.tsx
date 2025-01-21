@@ -2,7 +2,6 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 interface GalleryItem {
-  title?: string;
   imageSrc?: ImageWidget;
   imageAlt?: string;
   imageTitle?: string;
@@ -10,35 +9,28 @@ interface GalleryItem {
 }
 
 interface Props {
-  /**
-  * @description Selecione o template.
-  */
-  template?: "Content" | "Testimony" | "Images" | "Partners";
+  title?: string;
   items?: GalleryItem[];
 }
 
-function Gallery({
-  template,
+function Partners({
+  title,
   items,
 }: Props) {
-  const templateClassMap: Record<string, string> = {
-    Content: "gallery-content",
-    Testmonials: "gallery-testmonials",
-    Images: "gallery-images",
-    Partners: "gallery-partners",
-  };
-
-  // Determina a classe baseada no templateType recebido
-  const templateClass = template && templateClassMap[template] || "";
-
   return (
     <div class={`
-      ${templateClass}
       bg-linked-primary
       overflow-x-hidden
       pb-[70px] xl:pb-[120px]
       w-full
     `}>
+      {title && (
+        <h3
+          class="not-br-mobile"
+          dangerouslySetInnerHTML={{ __html: title }}
+        />
+      )}
+
       <ul class="
         horizontal-scroll
         flex xl:justify-center
@@ -57,22 +49,14 @@ function Gallery({
           `}
           key={index}
         >
-          {item.title && (
-            <strong class="
-              block
-              font-normal leading-[110%] text-[20px] text-primary-light
-              py-[24px]
-            ">{item.title}</strong>
-          )}
-
           {item.imageSrc && (
             <Image
               class="rounded-lg"
               src={item.imageSrc || ""}
               alt={item.imageAlt || ""}
               title={item.imageTitle || ""}
-              height={486}
-              width={343}
+              // height={29}
+              // width={174}
             />
           )}
 
@@ -89,4 +73,4 @@ function Gallery({
   );
 }
 
-export default Gallery;
+export default Partners;
