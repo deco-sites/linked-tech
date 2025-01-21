@@ -23,8 +23,10 @@ const isOpen = signal(false);
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value;
-  // const body = document.querySelector("body");
-  // body?.classList.add("teste");
+  
+  isOpen.value
+    ? document.body.classList.add('no-scroll')
+    : document.body.classList.remove('no-scroll');
 }
 
 function Menu({

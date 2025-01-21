@@ -241,6 +241,13 @@
       "section": {
         "__resolveType": "Footer"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Partners.tsx",
+        "title": "A Linked também tem parcerias<br/> para transformar o seu negócio"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
