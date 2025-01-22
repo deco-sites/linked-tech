@@ -19,6 +19,7 @@ import * as $$$$$$11 from "./sections/PlansOverviewMain.tsx";
 import * as $$$$$$12 from "./sections/SupportInfo.tsx";
 import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$14 from "./sections/TitlePage.tsx";
+import * as $$$$$$15 from "./sections/WhyLinked.tsx";
 
 const manifest = {
   "sections": {
@@ -37,6 +38,7 @@ const manifest = {
     "site/sections/SupportInfo.tsx": $$$$$$12,
     "site/sections/Theme/Theme.tsx": $$$$$$13,
     "site/sections/TitlePage.tsx": $$$$$$14,
+    "site/sections/WhyLinked.tsx": $$$$$$15,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
