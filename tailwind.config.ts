@@ -16,6 +16,7 @@ export default {
 
         "neutrals-dark-100": "#003330",
         "neutrals-dark-80": "rgba(0, 51, 48, 0.80)",
+        "neutrals-dark-20": "rgba(0, 51, 48, 0.20)",
         "neutrals-dark-10": "rgba(0, 51, 48, 0.10)",
 
         "neutrals-white-100": "#FFFFFF",

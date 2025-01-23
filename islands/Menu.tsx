@@ -133,7 +133,7 @@ function Menu({
       </div>
 
       <div
-        class="
+        class={`
           absolute
           cursor-pointer
           hamburger
@@ -141,7 +141,9 @@ function Menu({
           right-[1rem]
           top-[20px] xl:top-0
           z-[130]
-        "
+
+          ${isOpen.value ? 'active' : null}
+        `}
         onClick={toggleMenu}
       >
         <span class="pointer-events-none"></span>

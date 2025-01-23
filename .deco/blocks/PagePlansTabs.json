@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/PagePlansTabs.tsx",
+  "tabs": [
+    {
+      "tabName": "Planos",
+      "tabUrl": "/planos"
+    },
+    {
+      "tabName": "Opcionais",
+      "tabUrl": "/planos/opcionais"
+    },
+    {
+      "tabName": "Integrações",
+      "tabUrl": "/planos/integracoes"
+    }
+  ]
+}

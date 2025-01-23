@@ -4,6 +4,7 @@
 
 import * as $_app from "./routes/_app.tsx";
 import * as $Menu from "./islands/Menu.tsx";
+import * as $Tabs from "./islands/Tabs.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -12,6 +13,7 @@ const manifest = {
   },
   islands: {
     "./islands/Menu.tsx": $Menu,
+    "./islands/Tabs.tsx": $Tabs,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

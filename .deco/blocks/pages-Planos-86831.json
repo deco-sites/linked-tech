@@ -1,0 +1,270 @@
+{
+  "name": "Planos",
+  "path": "/planos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PagePlansTabs"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "align": "Left",
+        "title": "Plano para todos os<br/> modelos de negócio"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PagePlans.tsx",
+        "tabs": [
+          {
+            "tabName": "Planos",
+            "tabUrl": "/planos"
+          },
+          {
+            "tabName": "Opcionais",
+            "tabUrl": "/planos/opcionais"
+          },
+          {
+            "tabName": "Integrações",
+            "tabUrl": "/planos/integrações"
+          }
+        ],
+        "plans": [
+          {
+            "title": "Essencial",
+            "icon": "https://data.decoassets.com/linked-tech/adbc5010-7b0a-4928-bfdc-a49130ddfa80/plano-essencial.png",
+            "description": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio.",
+            "price": "0,00",
+            "buttonText": "Ver detalhes",
+            "buttonLink": "/planos/essencial"
+          },
+          {
+            "icon": "https://data.decoassets.com/linked-tech/ae60547a-20ce-4358-87d8-df0a860b3b75/plano-total.png",
+            "title": "Total",
+            "description": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários.",
+            "price": "0,00",
+            "buttonText": "Ver detalhes",
+            "buttonLink": "/plano/total"
+          }
+        ],
+        "modules": {
+          "title": "Módulos",
+          "list": [],
+          "list1": [
+            {
+              "text": "Delivery"
+            },
+            {
+              "text": "Local"
+            }
+          ],
+          "list2": [
+            {
+              "text": "Comanda"
+            },
+            {
+              "text": "Mesa"
+            },
+            {
+              "text": "Balcão"
+            },
+            {
+              "text": "Delivery"
+            }
+          ],
+          "module1": [
+            {
+              "text": "Delivery"
+            },
+            {
+              "text": "Local"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            }
+          ],
+          "module2": [
+            {
+              "text": "Comanda"
+            },
+            {
+              "text": "Mesa"
+            },
+            {
+              "text": "Balcão"
+            },
+            {
+              "text": "Delivery"
+            }
+          ]
+        },
+        "features": {
+          "title": "Recursos e funcionalidades",
+          "feature1": [
+            {
+              "text": "PDV"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            }
+          ],
+          "feature2": [
+            {
+              "text": "PDV"
+            },
+            {
+              "text": "Gestão"
+            },
+            {
+              "text": "Contabilidade"
+            }
+          ]
+        },
+        "connectivity": {
+          "title": "Conectividade",
+          "connectivity1": [
+            {
+              "text": "Online"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            }
+          ],
+          "connectivity2": [
+            {
+              "text": "Online"
+            },
+            {
+              "text": "Offline"
+            }
+          ]
+        },
+        "devices": {
+          "title": "Dispositivos",
+          "devices1": [
+            {
+              "text": "Impressoras não fiscais"
+            },
+            {
+              "text": "-",
+              "lines": "2"
+            },
+            {
+              "text": "POS"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            }
+          ],
+          "devices2": [
+            {
+              "text": "Impressoras fiscais",
+              "lines": "2"
+            },
+            {
+              "text": "Impressoras produção"
+            },
+            {
+              "text": "POS"
+            },
+            {
+              "text": "TEF"
+            },
+            {
+              "text": "Balanças"
+            },
+            {
+              "text": "Catraca de comanda"
+            }
+          ]
+        },
+        "optionals": {
+          "title": "Opcionais",
+          "optionals1": [
+            {
+              "lines": "1",
+              "text": "Link de pagamentos",
+              "url": "/planos/opcionais/link-de-pagamentos"
+            },
+            {
+              "lines": "1",
+              "text": "Monitor de preparos",
+              "url": "/planos/opcionais/monitor-de-preparos"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            },
+            {
+              "lines": "1",
+              "text": "-"
+            }
+          ],
+          "optionals2": [
+            {
+              "lines": "1",
+              "text": "Link de pagamentos",
+              "url": "/planos/opcionais/link-de-pagamentos"
+            },
+            {
+              "lines": "1",
+              "text": "Monitor de preparos",
+              "url": "/planos/opcionais/monitor-de-preparos"
+            },
+            {
+              "lines": "1",
+              "url": "/planos/opcionais/app-de-delivery",
+              "text": "App de delivery"
+            },
+            {
+              "lines": "1",
+              "url": "/planos/opcionais/inteligencia-de-dados",
+              "text": "Inteligência de dados"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
