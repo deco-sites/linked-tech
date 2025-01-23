@@ -1,0 +1,72 @@
+{
+  "name": "Planos - Opcionais",
+  "path": "/planos/opcionais",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PagePlansTabs"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "align": "Left",
+        "title": "Turbine seu plano<br/> com mais recursos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PagePlansOptionals.tsx",
+        "items": [
+          {
+            "image": "https://data.decoassets.com/linked-tech/1078c36d-1a53-4b2f-a3d3-bd9bda646a8c/opcional-link-pagamentos.png",
+            "title": "Link de pagamentos",
+            "description": "Pagamento online para o seu delivery próprio, mesmo se ele for por telefone. Mais comodidade para os seus clientes e mais economia para você.",
+            "buttonText": "Ver detalhes",
+            "buttonUrl": "/planos/opcionais/link-de-pagamentos"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/0d5f794a-22ab-47e9-8292-81796bf73a75/opcional-monitor-de-preparos-kds.png",
+            "title": "Monitor de pedidos KDS",
+            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+            "buttonText": "Ver detalhes",
+            "buttonUrl": "/planos/opcionais/monitor-de-preparos"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/5758d9fb-5642-469d-b2ae-a933d3ec9635/opcional-app-delivery.png",
+            "title": "App Delivery",
+            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+            "buttonText": "Ver detalhes",
+            "buttonUrl": "/planos/opcionais/app-delivery"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/9720ce95-71e3-4be2-91e1-5fbf0f9db334/opcional-inteligencia-de-dados.png",
+            "title": "Inteligência de dados",
+            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+            "buttonText": "Ver detalhes",
+            "buttonUrl": "/planos/opcionais/inteligencia-de-dados"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
