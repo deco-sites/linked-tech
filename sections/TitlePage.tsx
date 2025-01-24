@@ -45,11 +45,12 @@ function TitlePage({
             class="
               block
               mb-[10px] xl:mb-[8px]
+              h-[32px] w-[32px] xl:h-[50px] xl:w-[50px]
             "
             src={imageSrc || ""}
             alt={imageAlt || ""}
             title={imageTitle || ""}
-            // height={29}
+            height={50}
             width={50}
           />
         )}

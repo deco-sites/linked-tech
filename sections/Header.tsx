@@ -38,18 +38,20 @@ function Header({
         w-full xl:w-[1460px]
       ">
         {imageSrc && (
-          <Image
-            class="
-              fixed xl:relative
-              top-[22px] xl:top-0
-              z-[130]
-            "
-            src={imageSrc || ""}
-            alt={imageAlt || ""}
-            title={imageTitle || ""}
-            height={35}
-            width={209}
-          />
+          <a href="/">
+            <Image
+              class="
+                fixed xl:relative
+                top-[22px] xl:top-0
+                z-[130]
+              "
+              src={imageSrc || ""}
+              alt={imageAlt || ""}
+              title={imageTitle || ""}
+              height={35}
+              width={209}
+            />
+          </a>
         )}
 
         <Menu menu={menu} menuMobile={menuMobile} />

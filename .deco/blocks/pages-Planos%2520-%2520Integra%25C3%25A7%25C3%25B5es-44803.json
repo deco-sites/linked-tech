@@ -1,0 +1,128 @@
+{
+  "name": "Planos - Integrações",
+  "path": "/planos/integracoes",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PagePlansTabs"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "align": "Left",
+        "title": "Os principais serviços<br/> estão na Linked"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PagePlansIntegrations.tsx",
+        "categories": [
+          {
+            "list": [
+              {
+                "image": "https://data.decoassets.com/linked-tech/e762c7d3-55d4-4423-bd94-6573672a7dd2/integration-delivery-delivery-much.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/9490e141-b3c7-4724-b96b-6b7a53023a35/integration-delivery-delivery-direto.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/26179349-579d-4351-b669-8d3d726eba89/integration-delivery-ifood.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/0d1636b8-dda8-4392-b774-d9a1eecf320d/integration-delivery-prefiro-delivery.png"
+              }
+            ],
+            "title": "Delivery"
+          },
+          {
+            "list": [
+              {
+                "image": "https://data.decoassets.com/linked-tech/afaff758-eea1-474e-ada3-58b946bb82e7/integracao-cardapio-abrahao.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/ef2105a1-4995-4102-8d62-17acd9bca78f/integracao-cardapio-alloy.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/87119de6-33c6-409d-8c21-b32901f41fdc/integracao-cardapio-goomer.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/93968f49-08b4-4c2a-b056-090ff80b8343/integracao-cardapio-grynfood.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/12b4ccf0-0c5e-4e98-9610-de85403646c6/integracao-cardapio-neemo.png"
+              }
+            ],
+            "title": "Cardápio digital"
+          },
+          {
+            "list": [
+              {
+                "image": "https://data.decoassets.com/linked-tech/cddfbd3d-fa61-4010-bbab-194c12f9cb85/integracoes-totem-gototem.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/e0c2e206-7130-4ff6-8632-daef6d74faf7/integracoes-totem-voceqpad.png"
+              }
+            ],
+            "title": "Totem e autoatendimento"
+          },
+          {
+            "list": [
+              {
+                "image": "https://data.decoassets.com/linked-tech/dc3a40fc-adf4-4654-a44b-9be9d8d04863/integracoes-pagamentos-cappta.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/c3326159-a5aa-4d60-86d6-45c9395c8e5e/integracoes-pagamentos-totvs.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/4025094c-b70f-49f8-9128-491de571169b/integracoes-pagamentos-f360.png"
+              }
+            ],
+            "title": "Pagamentos"
+          },
+          {
+            "list": [
+              {
+                "image": "https://data.decoassets.com/linked-tech/a3c4f1fd-ccdd-432c-96b8-917317e28ca5/integracoes-pagamentos-entrepay.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/a241a6df-2cc4-48d7-b36b-6f96c68a6c90/integracoes-pagamentos-cielo.png"
+              },
+              {
+                "image": "https://data.decoassets.com/linked-tech/57774fff-57a8-46e1-b4d9-5db48cd99404/integracoes-pagamentos-ifood.png"
+              }
+            ],
+            "title": "Maquininhas"
+          },
+          {
+            "list": [
+              {
+                "image": "https://data.decoassets.com/linked-tech/32e67933-96c9-4169-90e0-c0810e4af639/integracoes-fidelizacao-clientefiel.png"
+              }
+            ],
+            "title": "Fidelização"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -47,7 +47,7 @@
             "description": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio.",
             "price": "0,00",
             "buttonText": "Ver detalhes",
-            "buttonLink": "/planos/essencial"
+            "buttonLink": "/planos/plano-essencial"
           },
           {
             "icon": "https://data.decoassets.com/linked-tech/ae60547a-20ce-4358-87d8-df0a860b3b75/plano-total.png",
@@ -55,7 +55,7 @@
             "description": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários.",
             "price": "0,00",
             "buttonText": "Ver detalhes",
-            "buttonLink": "/plano/total"
+            "buttonLink": "/planos/plano-total"
           }
         ],
         "modules": {
