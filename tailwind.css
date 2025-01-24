@@ -188,8 +188,6 @@
 
 
 /* #region Title Page */
-.title-page {}
-
 .title-page h2 strong {
   color: var(--primary-medium);
   font-weight: inherit;
