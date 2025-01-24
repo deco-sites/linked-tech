@@ -1,0 +1,167 @@
+{
+  "name": "Plano Essencial",
+  "path": "/planos/plano-essencial",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "align": "Left",
+        "imageSrc": "https://data.decoassets.com/linked-tech/d3856d59-cec9-49e6-9fc8-f9a374c4bfb2/titulo-plano.png",
+        "imageAlt": "Plano Essencial",
+        "imageTitle": "Plano Essencial",
+        "title": "Plano <strong>Essencial</strong>",
+        "description": "Design intuitivo e operação fácil para administrar seus pedidos."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Gallery.tsx",
+        "template": "Content",
+        "items": [
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/f69d159a-114a-49a1-973e-3c28f97eba24/gallery-01.png",
+            "title": "Aumente a eficiência",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "imageHeight": " 486",
+            "imageWidth": "343 "
+          },
+          {
+            "title": "Aumente a eficiência",
+            "imageSrc": "https://data.decoassets.com/linked-tech/f69d159a-114a-49a1-973e-3c28f97eba24/gallery-01.png",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "imageHeight": "486",
+            "imageWidth": "343"
+          },
+          {
+            "title": "Aumente a eficiência",
+            "imageSrc": "https://data.decoassets.com/linked-tech/f69d159a-114a-49a1-973e-3c28f97eba24/gallery-01.png",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "imageHeight": "486",
+            "imageWidth": "343"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BodyContent.tsx",
+        "components": [
+          {
+            "component": "paragraph",
+            "list": [],
+            "paragraph": {
+              "text": "O Linked Food Total é um dos planos mais completos do mercado. Ele gerencia todos os processos de um restaurante, proporcionando visão em tempo real das vendas, controle de estoque, automação comercial e emissão de nota fiscal. "
+            }
+          },
+          {
+            "component": "image",
+            "list": [],
+            "image": {
+              "src": "https://data.decoassets.com/linked-tech/1b4bec5b-cc1e-42d9-b4d2-452c3e9aeeb6/gallery-testmonials.png",
+              "height": 224,
+              "width": 329
+            },
+            "imageWidth": 309,
+            "imageHeight": 224
+          },
+          {
+            "component": "paragraph",
+            "list": [],
+            "paragraph": {
+              "text": "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador."
+            }
+          },
+          {
+            "component": "paragraph",
+            "list": [],
+            "paragraph": {
+              "text": "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BodyContent.tsx",
+        "components": [
+          {
+            "component": "list",
+            "list": [
+              "Instalação em até 72 horas",
+              "Atendimento 24x7",
+              "Treinamentos ilimitados",
+              "Sem limite de caixas e dispositivos",
+              "Sem limite de usuários",
+              "Sem limite de pedidos",
+              "Sem contrato de fidelidade",
+              "Integrações com os principais serviços do mercado",
+              "Retaguarda completa, com mais de 30 relatórios"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Gallery.tsx",
+        "template": "Testimony",
+        "items": [
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5daa83e0-ed83-498c-b527-e9568815320b/gallery-testmonials.png",
+            "imageAlt": "Imagem 01",
+            "imageTitle": "Imagem 01",
+            "description": "\"\u001fAtravés dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "imageHeight": "224",
+            "imageWidth": "309",
+            "testimonyName": "Dennis, Resenhas da Vila",
+            "testimonyLocation": "São Paulo - SP"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5daa83e0-ed83-498c-b527-e9568815320b/gallery-testmonials.png",
+            "description": "\"\u001fAtravés dos relatórios descobri que meu produto principal não dava lucro.”",
+            "imageAlt": "Imagem 02",
+            "imageTitle": "Imagem 02",
+            "imageHeight": "224",
+            "imageWidth": "309",
+            "testimonyName": "Dennis, Resenhas da Vila",
+            "testimonyLocation": "São Paulo - SP"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5daa83e0-ed83-498c-b527-e9568815320b/gallery-testmonials.png",
+            "imageAlt": "Imagem 03",
+            "imageTitle": "Imagem 03",
+            "description": "\"\u001fAtravés dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "imageWidth": "309",
+            "imageHeight": "224",
+            "testimonyName": "Dennis, Resenhas da Vila",
+            "testimonyLocation": "São Paulo - SP"
+          }
+        ],
+        "bgColor": "#D6FFF5",
+        "galleryTitle": "O sucesso dos clientes é<br/> nosso maior orgulho"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

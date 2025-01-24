@@ -34,7 +34,78 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BodyContent.tsx",
-        "content": "<h2>\n  Serena: Energia limpa e economia na conta de luz\n</h2>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<span>35%</span>\n<p>\n  Até 35% de economia no 1º ano energia solar e eólica\n</p>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<h3>\n  Serena: Energia limpa e economia na conta de luz\n</h3>\n<ul>\n  <li>Contratação digital</li>\n  <li>Não é preciso instalar placas solares</li>\n  <li>Energia entregue do mesmo jeito, pela sua distribuidora</li>\n  <li>Você só paga o que consome</li>\n</ul>"
+        "content": "<h2>\n  Serena: Energia limpa e economia na conta de luz\n</h2>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<span>35%</span>\n<p>\n  Até 35% de economia no 1º ano energia solar e eólica\n</p>\n<p>\n  Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável.\n</p>\n<h3>\n  Serena: Energia limpa e economia na conta de luz\n</h3>\n<ul>\n  <li>Contratação digital</li>\n  <li>Não é preciso instalar placas solares</li>\n  <li>Energia entregue do mesmo jeito, pela sua distribuidora</li>\n  <li>Você só paga o que consome</li>\n</ul>",
+        "components": [
+          {
+            "component": "title",
+            "titleSize": "big",
+            "list": [],
+            "title": {
+              "size": "big",
+              "text": "Serena: Energia limpa e economia na conta de luz"
+            }
+          },
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável."
+            }
+          },
+          {
+            "component": "big-number",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "bigNumber": {
+              "text": "35%"
+            }
+          },
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "Até 35% de economia no 1º ano energia solar e eólica"
+            }
+          },
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável."
+            }
+          },
+          {
+            "component": "title",
+            "title": {
+              "size": "small",
+              "text": "Serena: Energia limpa e economia na conta de luz"
+            },
+            "list": []
+          },
+          {
+            "component": "list",
+            "title": {
+              "size": "big"
+            },
+            "list": [
+              "Contratação digital",
+              "Não é preciso instalar placas solares",
+              "Energia entregue do mesmo jeito, pela sua distribuidora",
+              "Você só paga o que consome"
+            ]
+          }
+        ]
       }
     },
     {
