@@ -17,7 +17,10 @@
         "imageTitle": "Tipos de estabelecimento",
         "title": "Tipos de <strong>estabelecimento</strong>",
         "description": "Descrição tipos de estabelecimento<br/> tipos de estabelecimento tipos de estabelecimento.",
-        "align": "Left"
+        "align": "Left",
+        "enableBreadcrumb": true,
+        "titleBreadcrumb": "Tipos de estabelecimento",
+        "enableSharePage": true
       }
     },
     {

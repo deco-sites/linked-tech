@@ -261,3 +261,27 @@
     }
   }
 /* #endregion BodyContent.tsx */
+
+
+/* #region Accordion */
+.accordion-content {
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+  .accordion-content > *:last-child {
+    margin-bottom: 0 !important;
+  }
+
+.accordion-content.open {
+  max-height: 3000px; /* Ajuste conforme necessário */
+  opacity: 1;
+}
+
+.accordion-content.closed {
+  max-height: 0;
+  opacity: 0;
+}
+/* #endregion Accordion */

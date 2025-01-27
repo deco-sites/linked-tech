@@ -36,6 +36,7 @@ export type AvailableIcons =
   | "WhatsApp"
   | "ArrowsPointingOut"
 
+  // Estabelecimentos
   | "ALaCarte"
   | "Bar"
   | "Cafeteria"
@@ -45,7 +46,9 @@ export type AvailableIcons =
   | "SelfService"
   | "Sorveteria"
   | "Redes e franquias"
-  | "Outros";
+  | "Outros"
+  
+  | "Share";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**

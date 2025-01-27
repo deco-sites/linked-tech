@@ -1,7 +1,12 @@
 import { ImageWidget, TextArea } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import WhatsApp from "../islands/Share.tsx";
 
 interface Props {
+  enableBreadcrumb?: boolean;
+  titleBreadcrumb?: string;
+  enableSharePage?: boolean;
+
   align?: "Left" | "Center";
   imageSrc?: ImageWidget;
   imageAlt?: string;
@@ -19,6 +24,9 @@ interface Props {
 }
 
 function TitlePage({
+  enableBreadcrumb,
+  titleBreadcrumb,
+  enableSharePage,
   align,
   imageSrc,
   imageAlt,
@@ -40,6 +48,22 @@ function TitlePage({
         text-white
         w-full xl:w-[1460px]
       `}>
+        {
+          enableBreadcrumb && (
+            <div class="
+              flex justify-between items-center
+              pb-[32px]
+              relative
+              top-[-6px]
+            ">
+              <p class="text-neutrals-white-80 text-[14px] xl:text-[16px]">
+                {titleBreadcrumb}
+              </p>
+              { enableSharePage && (<WhatsApp />) }
+            </div>
+          )
+        }
+
         {imageSrc && (
           <Image
             class="
@@ -75,7 +99,7 @@ function TitlePage({
             class={`
               ${ align === "Center" ? "text-center" : null }
               font-normal xl:font-light
-              leading-[115%] xl:leading-[140%]
+              leading-[130%] xl:leading-[140%]
               mb-[10px] xl:mb-[8px]
               tracking-[-0.64px];
               text-[16px] text-neutrals-white-100

@@ -27,8 +27,8 @@ function Hero({
         src={imageSrc || ""}
         alt={imageAlt || ""}
         title={imageTitle || ""}
-        // height={29}
-        // width={195}
+        height={960}
+        width={3026}
       />
     )
   );
