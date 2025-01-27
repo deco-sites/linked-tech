@@ -3,7 +3,9 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
+import * as $Accordion from "./islands/Accordion.tsx";
 import * as $Menu from "./islands/Menu.tsx";
+import * as $Share from "./islands/Share.tsx";
 import * as $Tabs from "./islands/Tabs.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -12,7 +14,9 @@ const manifest = {
     "./routes/_app.tsx": $_app,
   },
   islands: {
+    "./islands/Accordion.tsx": $Accordion,
     "./islands/Menu.tsx": $Menu,
+    "./islands/Share.tsx": $Share,
     "./islands/Tabs.tsx": $Tabs,
   },
   baseUrl: import.meta.url,

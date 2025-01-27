@@ -3,6 +3,8 @@ import Image from "apps/website/components/Image.tsx";
 import Paragraph from "../components/BodyContent/Paragraph.tsx";
 import List from "site/components/BodyContent/List.tsx";
 import Title from "site/components/BodyContent/Title.tsx";
+import BigNumber from "site/components/BodyContent/BigNumber.tsx";
+
 interface Components {
   /**
    * @label Component type: {component}
@@ -58,14 +60,14 @@ function BodyContent({
                 <Image
                   key={index}
                   class="mx-auto mb-[40px] xl:mb-[60px]"
-                  src={component.image?.src}
-                  width={component.image?.width}
-                  height={component.image?.height}
+                  src={component.image?.src || ""}
+                  width={component.image?.width || 0}
+                  height={component.image?.height || 0}
                 />
               );
 
             case "big-number":
-              return <span key={index}>{component.bigNumber?.text}</span>;
+              return <BigNumber key={index} text={component.bigNumber?.text} />;
 
             case "title":
               return (

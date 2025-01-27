@@ -93,6 +93,30 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/IconGroup.tsx",
+        "items": [
+          {
+            "image": "https://data.decoassets.com/linked-tech/45f44635-7478-424d-a82b-236a47e5726f/icon-mesa.png",
+            "text": "Mesa"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/cf5775ab-2a4d-42dc-9e1d-292930e46d65/icon-balcao.png",
+            "text": "Balcão"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/1a34f97b-0a62-41bf-abda-bb5fe136adf4/icon-comanda.png",
+            "text": "Comanda"
+          },
+          {
+            "text": "Delivery",
+            "image": "https://data.decoassets.com/linked-tech/11ed8c8f-4519-4794-a193-3c48f02aa3c0/icon-delivery.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/BodyContent.tsx",
         "components": [
           {
@@ -151,6 +175,92 @@
         ],
         "bgColor": "#D6FFF5",
         "galleryTitle": "O sucesso dos clientes é<br/> nosso maior orgulho"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/AccordionContent.tsx",
+        "title": "Recursos e funcionalidades",
+        "content": [
+          {
+            "component": "image",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "image": {
+              "src": "https://data.decoassets.com/linked-tech/e179abb1-d3d0-4f13-9b9a-60366a55323e/image-video.png",
+              "width": 343,
+              "height": 232
+            }
+          },
+          {
+            "component": "title",
+            "title": {
+              "size": "small",
+              "text": "Atender melhor"
+            },
+            "list": []
+          },
+          {
+            "component": "list",
+            "title": {
+              "size": "big"
+            },
+            "list": [
+              "Painel centralizado com os pedidos realizados no local e via delivery",
+              "Envio de notificações para o cliente saber como está a produção de seu pedido"
+            ]
+          },
+          {
+            "component": "title",
+            "title": {
+              "size": "small",
+              "text": "Aumentar a eficiência"
+            },
+            "list": []
+          },
+          {
+            "component": "list",
+            "title": {
+              "size": "big"
+            },
+            "list": [
+              "Conheça os dias e horários de maior movimento para se planejar melhor",
+              "Organize e acelere a produção enviando os pedidos direto para a cozinha",
+              "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/AccordionContent.tsx",
+        "title": "Requisitos",
+        "content": [
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "Basicamente você precisa ter um computador conectado a internet para rodar o Linked Food Essencial. Confira as especificações:"
+            }
+          },
+          {
+            "component": "list",
+            "title": {
+              "size": "big"
+            },
+            "list": [
+              "Processador i3 com 4GB de memória RAM ou superior"
+            ]
+          }
+        ]
       }
     },
     {
