@@ -7,7 +7,7 @@ import * as $Accordion from "./islands/Accordion.tsx";
 import * as $Menu from "./islands/Menu.tsx";
 import * as $Share from "./islands/Share.tsx";
 import * as $Tabs from "./islands/Tabs.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
