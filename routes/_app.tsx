@@ -13,6 +13,8 @@ export default defineApp(async (_req, ctx) => {
 
       {/* Include Icons and manifest */}
       <Head>
+        <link rel="icon" type="image/x-icon" href="https://data.decoassets.com/linked-tech/8b11a5c4-9353-4dea-a8f4-04bd7145b9d8/favicon.ico" />
+
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
 
