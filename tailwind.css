@@ -264,6 +264,29 @@
 
 
 /* #region Accordion */
+@media (min-width: 1280px) {
+  #accordion-component.first {
+    padding-top: 64px;
+  }
+  
+  #accordion-component.last {
+    padding-bottom: 64px;
+  }
+}
+
+.accordion-item button.closed svg {
+  transform: rotate(0deg);
+}
+
+.accordion-item button.open svg {
+  transform: rotate(-180deg);
+}
+
+.accordion-item button svg {
+  top: calc(50% - 11px);
+  transition: transform 0.3s ease;
+}
+
 .accordion-content {
   transition: max-height 0.3s ease, opacity 0.3s ease;
   max-height: 0;

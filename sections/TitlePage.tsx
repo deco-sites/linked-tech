@@ -88,6 +88,7 @@ function TitlePage({
               py-2
               text-[30px] xl:text-[48px] text-neutrals-white-100
               tracking-[-0.96px]
+              xl:w-[70%]
             "
             dangerouslySetInnerHTML={{ __html: title }}
           >

@@ -21,7 +21,7 @@ function OurClients({ title, clients }: Props) {
     ">
       <h3 class="
         font-medium
-        pb-[48px]
+        pb-[48px] xl:pb-[64px]
         text-neutrals-dark-100
         text-[28px] xl:text-[32px]
       ">

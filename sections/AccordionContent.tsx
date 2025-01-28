@@ -31,11 +31,21 @@ function AccordionContent({
   content,
 }: Props) {
   return (
-    <div class="
-      mx-auto
-      w-full xl:w-[706px]
-    ">
-      <Accordion title={title} content={content} />
+    <div
+      id="accordion-component"
+      class="
+        bg-white xl:bg-neutrals-dark-10
+        xl:py-[8px]
+        w-full
+      "
+    >
+      <div class="
+        border-b border-neutrals-dark-10 xl:border-none
+        mx-auto
+        w-full xl:w-[706px]
+      ">
+        <Accordion title={title} content={content} />
+      </div>
     </div>
   )
 }

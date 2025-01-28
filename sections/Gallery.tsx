@@ -75,6 +75,7 @@ function Gallery({
             border-t-2 border-neutrals-white-20
             flex-none
             mr-[12px]
+            pt-[24px]
             w-[80vw] xl:w-[24%]
             ${index === items.length - 1 ? 'last:mr-0' : ''}
           `}
@@ -84,7 +85,7 @@ function Gallery({
             <strong class="
               block
               font-normal leading-[110%] text-[20px] text-primary-light
-              py-[24px]
+              pb-[24px]
             ">{item.title}</strong>
           )}
 

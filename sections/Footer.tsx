@@ -30,7 +30,7 @@ function Footer({
       ">
         {imageSrc && (
           <Image
-            class="block mx-auto"
+            class="block mx-auto w-[195px] xl:w-[253px]"
             src={imageSrc || ""}
             alt={imageAlt || ""}
             title={imageTitle || ""}
