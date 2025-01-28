@@ -270,5 +270,12 @@
       }
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Linked - Plataforma para Bares e Restaurantes",
+    "type": "website",
+    "description": "A linked conta com um extenso portfólio de tecnologia e serviços para o seu estabelecimento. PDV, Gestão, BI, KDS, Venda Digitada, Mais de 10 integrações de Delivery e um Clube de Compras com descontos de 25% em serviços exclusivos para o food service.",
+    "canonical": ""
+  }
 }
