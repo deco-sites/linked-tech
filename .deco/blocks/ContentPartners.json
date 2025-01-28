@@ -1,0 +1,59 @@
+{
+  "__resolveType": "site/sections/ContentPartners.tsx",
+  "items": [
+    {
+      "imageBg": "#00a8a81a",
+      "imageSrc": "https://data.decoassets.com/linked-tech/131be22b-50f3-4710-b5eb-42a6f0d3cc65/partner-01.png",
+      "imageWidth": "194",
+      "imageHeight": "36",
+      "imageAlt": "Wealth Money",
+      "imageTitle": "Wealth Money",
+      "description": "Empréstimos com taxas a partir de 1,9% ao mês."
+    },
+    {
+      "imageBg": "#FE473C",
+      "imageSrc": "https://data.decoassets.com/linked-tech/5b792dfc-5811-4f8b-a115-945d29a547df/partner-02.png",
+      "imageWidth": "202",
+      "imageHeight": "48",
+      "imageAlt": "Serena",
+      "imageTitle": "Serena",
+      "description": "Seu negócio mais sustentável e economia de até 35% na conta de luz."
+    },
+    {
+      "imageBg": "#DDE8F9",
+      "imageSrc": "https://data.decoassets.com/linked-tech/f7de6e22-f51a-4468-aad5-cd4a9c3f1552/partner-03.png",
+      "imageWidth": "200",
+      "imageHeight": "55",
+      "imageAlt": "Contabilizei",
+      "imageTitle": "Contabilizei",
+      "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked."
+    },
+    {
+      "imageBg": "#00a8a81a",
+      "imageSrc": "https://data.decoassets.com/linked-tech/131be22b-50f3-4710-b5eb-42a6f0d3cc65/partner-01.png",
+      "imageWidth": "194",
+      "imageHeight": "36",
+      "imageAlt": "Wealth Money",
+      "imageTitle": "Wealth Money",
+      "description": "Empréstimos com taxas a partir de 1,9% ao mês."
+    },
+    {
+      "imageBg": "#FE473C",
+      "imageSrc": "https://data.decoassets.com/linked-tech/5b792dfc-5811-4f8b-a115-945d29a547df/partner-02.png",
+      "imageWidth": "202",
+      "imageHeight": "48",
+      "imageAlt": "Serena",
+      "imageTitle": "Serena",
+      "description": "Seu negócio mais sustentável e economia de até 35% na conta de luz."
+    },
+    {
+      "imageBg": "#DDE8F9",
+      "imageSrc": "https://data.decoassets.com/linked-tech/f7de6e22-f51a-4468-aad5-cd4a9c3f1552/partner-03.png",
+      "imageWidth": "200",
+      "imageHeight": "55",
+      "imageAlt": "Contabilizei",
+      "imageTitle": "Contabilizei",
+      "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked."
+    }
+  ]
+}

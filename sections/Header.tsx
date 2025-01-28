@@ -42,7 +42,9 @@ function Header({
             <Image
               class="
                 fixed xl:relative
-                top-[22px] xl:top-0
+                top-[26px] xl:top-0
+                h-[28px] xl:h-[35px]
+                w-[167px] xl:w-[209px]
                 z-[130]
               "
               src={imageSrc || ""}

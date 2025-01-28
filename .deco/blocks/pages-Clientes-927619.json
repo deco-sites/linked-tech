@@ -1,0 +1,148 @@
+{
+  "name": "Clientes",
+  "path": "/clientes",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "enableBreadcrumb": true,
+        "titleBreadcrumb": "Clientes",
+        "enableSharePage": true,
+        "align": "Left",
+        "title": "Mais de <strong>1.000</strong> estabelecimentos já estão na Linked"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Gallery.tsx",
+        "template": "Testimony",
+        "items": [
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5daa83e0-ed83-498c-b527-e9568815320b/gallery-testmonials.png",
+            "imageWidth": "309",
+            "imageHeight": "224",
+            "description": "”Eu vivia comprando o que tava faltando no mercadinho da vizinhança. Com o Linked Food Total consegui finalmente gerenciar melhor meu estoque e economizar.”",
+            "testimonyName": "Dennis, Resenhas da Vila",
+            "testimonyLocation": "SÃO PAULO SP"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5daa83e0-ed83-498c-b527-e9568815320b/gallery-testmonials.png",
+            "imageWidth": "309",
+            "imageHeight": "224",
+            "description": "“A Linked foi uma verdadeira escola. Aprendemos a gerenciar melhor nosso estoque e fizemos mudanças muito rentáveis em nosso cardápio.”",
+            "testimonyName": "Proprietário, Nome do Estabelecimento",
+            "testimonyLocation": "SÃO PAULO SP"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/5daa83e0-ed83-498c-b527-e9568815320b/gallery-testmonials.png",
+            "imageWidth": "309",
+            "imageHeight": "224",
+            "description": "”O KDS era um sonho de consumo. Com os pedidos organizados na cozinha, conseguimos atender mais e melhor, sem errar nos pedidos.”",
+            "testimonyName": "Proprietário, Nome do Estabelecimento",
+            "testimonyLocation": "SÃO PAULO SP"
+          }
+        ],
+        "galleryTitle": "Veja o que nossos clientes em todo o Brasil estão dizendo."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/OurClients.tsx",
+        "clients": [
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          },
+          {
+            "image": "https://data.decoassets.com/linked-tech/4f9def6b-65be-45f9-a18f-0a1a8e6fa542/cliente.png",
+            "name": "Restaurante",
+            "type": "Tipo",
+            "location": "Cidade/UF"
+          }
+        ],
+        "title": "Clientes"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

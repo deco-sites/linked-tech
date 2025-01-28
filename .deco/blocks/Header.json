@@ -10,9 +10,17 @@
       "pageUrl": "/tipos-de-estabelecimento"
     },
     {
-      "onlyMobile": false,
+      "pageName": "Clientes",
+      "pageUrl": "/clientes"
+    },
+    {
       "pageName": "Planos",
-      "pageUrl": "/planos"
+      "pageUrl": "/planos",
+      "onlyMobile": false
+    },
+    {
+      "pageName": "Parcerias",
+      "pageUrl": "/parcerias"
     }
   ],
   "menuMobile": [
