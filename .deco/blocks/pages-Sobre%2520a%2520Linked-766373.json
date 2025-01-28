@@ -1,0 +1,111 @@
+{
+  "name": "Sobre a Linked",
+  "path": "/sobre-a-linked",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "enableBreadcrumb": true,
+        "titleBreadcrumb": "Sobre a Linked",
+        "enableSharePage": true,
+        "title": "Existimos para <strong>melhorar a vida</strong> do empreendedor de Food Service"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Gallery.tsx",
+        "template": "Content",
+        "items": [
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/1a7fd4be-1c31-483e-9981-be693281161c/sobre-a-linked.png",
+            "imageHeight": "381",
+            "imageWidth": "315",
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/1a7fd4be-1c31-483e-9981-be693281161c/sobre-a-linked.png",
+            "imageHeight": "381",
+            "imageWidth": "315",
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/1a7fd4be-1c31-483e-9981-be693281161c/sobre-a-linked.png",
+            "imageHeight": "381",
+            "imageWidth": "315",
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo"
+          },
+          {
+            "imageSrc": "https://data.decoassets.com/linked-tech/1a7fd4be-1c31-483e-9981-be693281161c/sobre-a-linked.png",
+            "imageHeight": "381",
+            "imageWidth": "315",
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BodyContent.tsx",
+        "components": [
+          {
+            "component": "title",
+            "title": {
+              "size": "small",
+              "text": "A Linked Tech tem automação de verdade, que te dá recuros para operar melhor o seu negócio, entender o que acontece nele e ainda planejar o futuro."
+            },
+            "list": []
+          },
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "A Linked foi fundada em 2016 para mudar o mercado de food service. Para isso, foi atrás da opinião de quem realmente entende do assunto: o empreendedor. "
+            }
+          },
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "A Linked foi fundada em 2016 para mudar o mercado de food service. Para isso, foi atrás da opinião de quem realmente entende do assunto: o empreendedor. "
+            }
+          },
+          {
+            "component": "paragraph",
+            "title": {
+              "size": "big"
+            },
+            "list": [],
+            "paragraph": {
+              "text": "Hoje a Linked tem produtos capazes de gerenciar todos os processos de um restaurante, proporcionando visão em tempo real das vendas, gerenciamento de estoque, automação comercial e emissão de nota fiscal."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

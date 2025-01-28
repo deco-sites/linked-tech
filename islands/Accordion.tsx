@@ -1,4 +1,5 @@
 // import { signal } from "@preact/signals";
+import { useEffect } from "preact/hooks";
 import Icon from "site/components/ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 import Paragraph from "../components/BodyContent/Paragraph.tsx";
@@ -12,15 +13,33 @@ interface Props {
   content?: Components[];
 }
 
+const AccordionStyles = () => {
+  const accordionComponents = document.querySelectorAll('#accordion-component');
+
+  if (accordionComponents.length > 0) {
+    const first = accordionComponents[0] as HTMLElement;
+    first.classList.add("first");
+
+    const last = accordionComponents[accordionComponents.length - 1] as HTMLElement;
+    last.classList.add("last");
+  }
+}
+
 const toggleAccordion = (event: Event) => {
   const button = event.target as HTMLButtonElement;
   const content = button?.nextElementSibling;
 
   if (content) {
     if (content.classList.contains("closed")) {
+      button.classList.remove("closed");
+      button.classList.add("open");
+
       content.classList.remove("closed");
       content.classList.add("open");
     } else if (content.classList.contains("open")) {
+      button.classList.remove("open");
+      button.classList.add("closed");
+
       content.classList.remove("open");
       content.classList.add("closed");
     }
@@ -28,11 +47,16 @@ const toggleAccordion = (event: Event) => {
 };
 
 function Accordion({ title, content }: Props) {
+  useEffect(() => {
+    AccordionStyles(); // Chama a função AccordionStyles quando o componente for montado
+  }, []);
+  
   return (
-    <div class="accordion">
+    <div class="accordion bg-white">
       <div class="accordion-item">
         <button
           class="
+            closed
             font-semibold
             py-[24px] px-[16px]
             relative
@@ -53,7 +77,6 @@ function Accordion({ title, content }: Props) {
               absolute
               pointer-events-none
               right-[16px]
-              top-[50%] translate-y-[-50%]
               text-primary-medium
             "
           />

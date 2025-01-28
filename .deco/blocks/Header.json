@@ -21,6 +21,10 @@
     {
       "pageName": "Parcerias",
       "pageUrl": "/parcerias"
+    },
+    {
+      "pageName": "Sobre a Linked",
+      "pageUrl": "/sobre-a-linked"
     }
   ],
   "menuMobile": [
