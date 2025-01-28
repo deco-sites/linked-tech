@@ -57,7 +57,7 @@ function Menu({
           xl:flex
           h-[calc(100vh-80px)] xl:h-auto
           left-0 xl:left-auto
-          ml-auto xl:ml-8
+          ml-auto xl:ml-[48px]
           p-4 xl:p-0
           ${isOpen.value ? "top-[80px]" : "top-[-100vh]"} xl:top-auto
           transition-top duration-500 ease-in-out xl:transition-none

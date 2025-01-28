@@ -51,16 +51,17 @@ function Partners({
         <ul class="
           horizontal-scroll
           gap-[16px] xl:gap-[20px]
-          flex xl:justify-center
+          flex xl:flex-wrap
           mt-[48px] xl:mt-[126px]
           mx-auto
-          px-4
+          px-4 xl:px-0 xl:pl-4
           w-full
         ">
           {items && items.map((item, index) => (
           <li
             class={`
               border-b-2 border-neutrals-dark-20
+              cursor-pointer
               flex-none
               mb-[12px] xl:mb-[16px]
               w-[74vw] xl:max-w-[463px] xl:w-full

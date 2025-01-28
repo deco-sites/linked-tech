@@ -1,0 +1,42 @@
+{
+  "__resolveType": "site/sections/Partners.tsx",
+  "title": "A Linked também tem parcerias<br/> para transformar o seu negócio",
+  "items": [
+    {
+      "imageBg": "#ffffff",
+      "imageSrc": "https://data.decoassets.com/linked-tech/131be22b-50f3-4710-b5eb-42a6f0d3cc65/partner-01.png",
+      "imageHeight": "36",
+      "imageWidth": "194",
+      "imageAlt": "WMoney",
+      "imageTitle": "WMoney",
+      "description": "Empréstimos com taxas a partir de 1,9% ao mês."
+    },
+    {
+      "imageBg": "#FE473C",
+      "imageSrc": "https://data.decoassets.com/linked-tech/5b792dfc-5811-4f8b-a115-945d29a547df/partner-02.png",
+      "description": "Seu negócio mais sustentável e economia de até 35% na conta de luz.",
+      "imageAlt": "Serena",
+      "imageTitle": "Serena",
+      "imageWidth": "202",
+      "imageHeight": "48"
+    },
+    {
+      "imageBg": "#DDE8F9",
+      "imageSrc": "https://data.decoassets.com/linked-tech/f7de6e22-f51a-4468-aad5-cd4a9c3f1552/partner-03.png",
+      "imageAlt": "Contabilizei",
+      "imageTitle": "Contabilizei",
+      "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked.",
+      "imageWidth": "200",
+      "imageHeight": "55"
+    },
+    {
+      "imageBg": "#ffffff",
+      "imageHeight": "36",
+      "imageWidth": "194",
+      "imageAlt": "WMoney",
+      "imageTitle": "WMoney",
+      "description": "Empréstimos com taxas a partir de 1,9% ao mês.",
+      "imageSrc": "https://data.decoassets.com/linked-tech/131be22b-50f3-4710-b5eb-42a6f0d3cc65/partner-01.png"
+    }
+  ]
+}
