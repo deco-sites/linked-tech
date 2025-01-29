@@ -100,6 +100,79 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/WhyLinked.tsx",
+        "title": "Não faltam números para comprovar nossa experiência",
+        "items": [
+          {
+            "number": "+1.000",
+            "text": "estabelecimentos de food service atendidos em todo o Brasil"
+          },
+          {
+            "number": "+3.000",
+            "text": "profissionais utilizando diariamente nossos produtos e soluções"
+          },
+          {
+            "number": "+000.000",
+            "text": "pedidos passam mensalmente por nossas plataformas"
+          },
+          {
+            "number": "+R$ 0 Bi",
+            "text": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
+          }
+        ],
+        "tema": "verde-claro"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/WhyLinked.tsx",
+        "tema": "branco",
+        "title": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho",
+        "items": [
+          {
+            "text": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente",
+            "number": "00 dias"
+          },
+          {
+            "text": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano",
+            "number": "0x"
+          },
+          {
+            "text": "é o aumento médio do faturamento nos clientes com nosso app de delivery",
+            "number": "00%"
+          },
+          {
+            "number": "R$ 00M",
+            "text": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PaginaSobreLinkedCultura.tsx",
+        "abas": [
+          {
+            "conteúdo": "A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar.",
+            "nome": "Propósito"
+          },
+          {
+            "nome": "Valores",
+            "conteúdo": "Valores - A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar."
+          },
+          {
+            "conteúdo": "Diferenciais - A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar.",
+            "nome": "Diferenciais"
+          }
+        ],
+        "titulo": "É com muito foco e disciplina que fazemos tudo isso acontecer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     }

@@ -83,6 +83,37 @@
   }
 }
 
+/* #region Theme */
+.verde-escuro {
+  background-color: var(--neutrals-dark-100);
+}
+
+  .verde-escuro h3,
+  .verde-escuro strong,
+  .verde-escuro p {
+    color: var(--primary-light);
+  }
+
+.verde-claro {
+  background-color: var(--primary-light);
+}
+
+  .verde-claro h3,
+  .verde-claro strong,
+  .verde-claro p {
+    color: var(--neutrals-dark-100);
+  }
+
+.branco {
+  background-color: #FFFFFF;
+}
+
+  .branco h3,
+  .branco strong,
+  .branco p {
+    color: var(--neutrals-dark-100);
+  }
+/* #endregion Theme */
 
 /* #region Section Header */
 .hamburger {
