@@ -1,7 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Menu, { MenuItem } from "../islands/Menu.tsx";
-
+import Menu, { MenuItem } from "site/islands/Menu.tsx";
+import ButtonPrice from "site/islands/ButtonPrice.tsx";
 interface Props {
   imageSrc?: ImageWidget;
   imageAlt?: string;
@@ -24,7 +24,7 @@ function Header({
       xl:items-center
       border-b
       border-neutrals-white-20
-      h-[80px]
+      h-[80px] xl:h-[96px]
       top-0
       w-full
       z-[90]
@@ -58,17 +58,14 @@ function Header({
 
         <Menu menu={menu} menuMobile={menuMobile} />
 
-        <button class="
+        <div class="
           hidden xl:block
-          absolute
-          bg-linked-secondary
-          px-6
-          py-2
-          rounded-md
-          right-[1rem]
+          xl:absolute
+          xl:right-[1rem]
+          xl:w-[314px]
         ">
-          Monte seu plano
-        </button>
+          <ButtonPrice />
+        </div>
       </div>
     </div>
   );

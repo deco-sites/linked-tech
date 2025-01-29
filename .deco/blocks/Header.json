@@ -29,10 +29,6 @@
   ],
   "menuMobile": [
     {
-      "pageName": "Sobre a Linked",
-      "pageUrl": "/sobre-a-linked"
-    },
-    {
       "pageName": "Trabalhe conosco",
       "pageUrl": "/trabalhe-conosco"
     },

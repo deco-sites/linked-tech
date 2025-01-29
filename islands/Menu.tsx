@@ -1,5 +1,6 @@
 import { signal } from "@preact/signals";
-import Icon from "../components/ui/Icon.tsx";
+import Icon from "site/components/ui/Icon.tsx";
+import ButtonPrice from "site/islands/ButtonPrice.tsx";
 
 export interface MenuItem {
   /**
@@ -58,6 +59,7 @@ function Menu({
           h-[calc(100vh-80px)] xl:h-auto
           left-0 xl:left-auto
           ml-auto xl:ml-[48px]
+          overflow-y-auto
           p-4 xl:p-0
           ${isOpen.value ? "top-[80px]" : "top-[-100vh]"} xl:top-auto
           transition-top duration-500 ease-in-out xl:transition-none
@@ -71,7 +73,7 @@ function Menu({
               class={`
                 border-b xl:border-b-0
                 relative
-                py-4 xl:py-0
+                py-[22px] xl:py-0
                 xl:mr-6
                 font-normal text-neutrals-dark-100 text-[18px] leading-[100%]
                 xl:font-light xl:text-white xl:text-[16px] leading-[140%]
@@ -102,22 +104,16 @@ function Menu({
           ))}
         </ul>
 
-        <button class="
-          xl:hidden
-          bg-linked-secondary
-          my-6
-          px-6 py-2
-          rounded-md
-        ">
-          Monte seu plano
-        </button>
+        <div class="my-[22px] xl:hidden">
+          <ButtonPrice />
+        </div>
 
         <ul class="xl:hidden">
           {menuMobile && menuMobile.map((item, index) => (
             <li
               class={`
-                py-4
-                font-semibold text-neutrals-dark-100 text-[16px] leading-[100%]
+                py-[22px]
+                font-normal text-neutrals-dark-100 text-[16px] leading-[100%]
               `}
               key={index}
             >
