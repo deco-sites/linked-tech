@@ -300,6 +300,10 @@
   div[data-js="accordion-component"].first {
     padding-top: 64px;
   }
+
+  div[data-js="accordion-component"].first.last {
+    padding-top: 0 !important;
+  }
   
   div[data-js="accordion-component"].last {
     padding-bottom: 64px;
