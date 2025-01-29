@@ -28,15 +28,6 @@
       "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked.",
       "imageWidth": "200",
       "imageHeight": "55"
-    },
-    {
-      "imageBg": "#ffffff",
-      "imageHeight": "36",
-      "imageWidth": "194",
-      "imageAlt": "WMoney",
-      "imageTitle": "WMoney",
-      "description": "Empréstimos com taxas a partir de 1,9% ao mês.",
-      "imageSrc": "https://data.decoassets.com/linked-tech/131be22b-50f3-4710-b5eb-42a6f0d3cc65/partner-01.png"
     }
   ]
 }

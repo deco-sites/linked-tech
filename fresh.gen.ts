@@ -7,6 +7,7 @@ import * as $Accordion from "./islands/Accordion.tsx";
 import * as $Menu from "./islands/Menu.tsx";
 import * as $Share from "./islands/Share.tsx";
 import * as $Tabs from "./islands/Tabs.tsx";
+import * as $TabsWihContent from "./islands/TabsWihContent.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -18,6 +19,7 @@ const manifest = {
     "./islands/Menu.tsx": $Menu,
     "./islands/Share.tsx": $Share,
     "./islands/Tabs.tsx": $Tabs,
+    "./islands/TabsWihContent.tsx": $TabsWihContent,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

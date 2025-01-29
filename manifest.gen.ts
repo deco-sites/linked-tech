@@ -18,15 +18,16 @@ import * as $$$$$$10 from "./sections/PagePlans.tsx";
 import * as $$$$$$11 from "./sections/PagePlansIntegrations.tsx";
 import * as $$$$$$12 from "./sections/PagePlansOptionals.tsx";
 import * as $$$$$$13 from "./sections/PagePlansTabs.tsx";
-import * as $$$$$$14 from "./sections/Partners.tsx";
-import * as $$$$$$15 from "./sections/PlansOverviewCardGrid.tsx";
-import * as $$$$$$16 from "./sections/PlansOverviewCascadeGrid.tsx";
-import * as $$$$$$17 from "./sections/PlansOverviewListGrid.tsx";
-import * as $$$$$$18 from "./sections/PlansOverviewMain.tsx";
-import * as $$$$$$19 from "./sections/SupportInfo.tsx";
-import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$21 from "./sections/TitlePage.tsx";
-import * as $$$$$$22 from "./sections/WhyLinked.tsx";
+import * as $$$$$$14 from "./sections/PaginaSobreLinkedCultura.tsx";
+import * as $$$$$$15 from "./sections/Partners.tsx";
+import * as $$$$$$16 from "./sections/PlansOverviewCardGrid.tsx";
+import * as $$$$$$17 from "./sections/PlansOverviewCascadeGrid.tsx";
+import * as $$$$$$18 from "./sections/PlansOverviewListGrid.tsx";
+import * as $$$$$$19 from "./sections/PlansOverviewMain.tsx";
+import * as $$$$$$20 from "./sections/SupportInfo.tsx";
+import * as $$$$$$21 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$22 from "./sections/TitlePage.tsx";
+import * as $$$$$$23 from "./sections/WhyLinked.tsx";
 
 const manifest = {
   "sections": {
@@ -44,15 +45,16 @@ const manifest = {
     "site/sections/PagePlansIntegrations.tsx": $$$$$$11,
     "site/sections/PagePlansOptionals.tsx": $$$$$$12,
     "site/sections/PagePlansTabs.tsx": $$$$$$13,
-    "site/sections/Partners.tsx": $$$$$$14,
-    "site/sections/PlansOverviewCardGrid.tsx": $$$$$$15,
-    "site/sections/PlansOverviewCascadeGrid.tsx": $$$$$$16,
-    "site/sections/PlansOverviewListGrid.tsx": $$$$$$17,
-    "site/sections/PlansOverviewMain.tsx": $$$$$$18,
-    "site/sections/SupportInfo.tsx": $$$$$$19,
-    "site/sections/Theme/Theme.tsx": $$$$$$20,
-    "site/sections/TitlePage.tsx": $$$$$$21,
-    "site/sections/WhyLinked.tsx": $$$$$$22,
+    "site/sections/PaginaSobreLinkedCultura.tsx": $$$$$$14,
+    "site/sections/Partners.tsx": $$$$$$15,
+    "site/sections/PlansOverviewCardGrid.tsx": $$$$$$16,
+    "site/sections/PlansOverviewCascadeGrid.tsx": $$$$$$17,
+    "site/sections/PlansOverviewListGrid.tsx": $$$$$$18,
+    "site/sections/PlansOverviewMain.tsx": $$$$$$19,
+    "site/sections/SupportInfo.tsx": $$$$$$20,
+    "site/sections/Theme/Theme.tsx": $$$$$$21,
+    "site/sections/TitlePage.tsx": $$$$$$22,
+    "site/sections/WhyLinked.tsx": $$$$$$23,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
