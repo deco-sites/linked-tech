@@ -32,7 +32,7 @@ function AccordionContent({
 }: Props) {
   return (
     <div
-      id="accordion-component"
+      data-js="accordion-component"
       class="
         bg-white xl:bg-neutrals-dark-10
         xl:py-[8px]
