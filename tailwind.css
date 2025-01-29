@@ -115,6 +115,7 @@
   }
 /* #endregion Theme */
 
+
 /* #region Section Header */
 .hamburger {
   display: block;
@@ -296,28 +297,32 @@
 
 /* #region Accordion */
 @media (min-width: 1280px) {
-  #accordion-component.first {
+  div[data-js="accordion-component"].first {
     padding-top: 64px;
   }
   
-  #accordion-component.last {
+  div[data-js="accordion-component"].last {
     padding-bottom: 64px;
   }
 }
 
+.main-accordion button.closed svg,
 .accordion-item button.closed svg {
   transform: rotate(0deg);
 }
 
+.main-accordion button.open svg,
 .accordion-item button.open svg {
   transform: rotate(-180deg);
 }
 
+.main-accordion button svg,
 .accordion-item button svg {
-  top: calc(50% - 11px);
+  top: 24px;
   transition: transform 0.3s ease;
 }
 
+.faq-accordion,
 .accordion-content {
   transition: max-height 0.3s ease, opacity 0.3s ease;
   max-height: 0;
@@ -329,11 +334,13 @@
     margin-bottom: 0 !important;
   }
 
+.faq-accordion.open,
 .accordion-content.open {
   max-height: 3000px; /* Ajuste conforme necessário */
   opacity: 1;
 }
 
+.faq-accordion.closed,
 .accordion-content.closed {
   max-height: 0;
   opacity: 0;

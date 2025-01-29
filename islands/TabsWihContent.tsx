@@ -21,7 +21,6 @@ function TabsWihContent({ tabs }: TabsProps) {
               border-b-2
               ${ activeIndex.value === index ? "border-neutrals-dark-100" : "border-neutrals-dark-20" }
               font-semibold
-              py-4
               ${ activeIndex.value === index ? "text-neutrals-dark-100" : "text-neutrals-dark-80" }
               text-[16px] xl:text-[18px]
               text-center
@@ -29,7 +28,12 @@ function TabsWihContent({ tabs }: TabsProps) {
             `}
             key={index}
           >
-            <button onClick={() => { activeIndex.value = index; console.log(activeIndex.value) }}>{item.nome}</button>
+            <button
+              class="p-4"
+              onClick={() => { activeIndex.value = index; console.log(activeIndex.value) }}
+            >
+              {item.nome}
+            </button>
           </li>
         ))}
       </ul>

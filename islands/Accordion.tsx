@@ -14,15 +14,14 @@ interface Props {
 }
 
 const AccordionStyles = () => {
-  const accordionComponents = document.querySelectorAll('#accordion-component');
+  setTimeout(() => {
+    const accordionComponents = document.querySelectorAll('[data-js="accordion-component"]');
 
-  if (accordionComponents.length > 0) {
-    const first = accordionComponents[0] as HTMLElement;
-    first.classList.add("first");
-
-    const last = accordionComponents[accordionComponents.length - 1] as HTMLElement;
-    last.classList.add("last");
-  }
+    if (accordionComponents.length > 0) {
+      accordionComponents[0].classList.add("first");
+      accordionComponents[accordionComponents.length - 1].classList.add("last");
+    }
+  }, 500);
 }
 
 const toggleAccordion = (event: Event) => {
@@ -84,7 +83,7 @@ function Accordion({ title, content }: Props) {
 
         <div class="accordion-content closed">
           <div class="p-[16px]">
-          {content?.map((component, index) => {
+            {content?.map((component, index) => {
               switch (component.component) {
                 case "paragraph": 
                   return <Paragraph key={index} text={component.paragraph?.text}/>;

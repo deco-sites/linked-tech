@@ -266,6 +266,39 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/DuvidasComuns.tsx",
+        "title": "Dúvidas comuns",
+        "doubts": [
+          {
+            "question": "O Linked Food Essencial funciona em qualquer computador?",
+            "answer": "O Linked Food Essencial funciona em qualquer computador."
+          },
+          {
+            "question": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
+            "answer": "Para que tipo de estabelecimento o Linked Food Essencial é indicado."
+          },
+          {
+            "question": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
+            "answer": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial."
+          },
+          {
+            "question": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+            "answer": "A integração que preciso não está disponível no Linked Food Essencial, o que faço."
+          },
+          {
+            "question": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
+            "answer": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas."
+          },
+          {
+            "answer": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial.",
+            "question": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     }

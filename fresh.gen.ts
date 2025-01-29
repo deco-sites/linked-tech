@@ -4,6 +4,7 @@
 
 import * as $_app from "./routes/_app.tsx";
 import * as $Accordion from "./islands/Accordion.tsx";
+import * as $FaqAccordion from "./islands/FaqAccordion.tsx";
 import * as $Menu from "./islands/Menu.tsx";
 import * as $Share from "./islands/Share.tsx";
 import * as $Tabs from "./islands/Tabs.tsx";
@@ -16,6 +17,7 @@ const manifest = {
   },
   islands: {
     "./islands/Accordion.tsx": $Accordion,
+    "./islands/FaqAccordion.tsx": $FaqAccordion,
     "./islands/Menu.tsx": $Menu,
     "./islands/Share.tsx": $Share,
     "./islands/Tabs.tsx": $Tabs,
