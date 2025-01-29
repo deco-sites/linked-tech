@@ -1,4 +1,3 @@
-// import { signal } from "@preact/signals";
 import { useEffect } from "preact/hooks";
 import Icon from "site/components/ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
@@ -21,7 +20,7 @@ const AccordionStyles = () => {
       accordionComponents[0].classList.add("first");
       accordionComponents[accordionComponents.length - 1].classList.add("last");
     }
-  }, 500);
+  }, 1000);
 }
 
 const toggleAccordion = (event: Event) => {
