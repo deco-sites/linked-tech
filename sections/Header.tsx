@@ -62,7 +62,7 @@ function Header({
           hidden xl:block
           xl:absolute
           xl:right-[1rem]
-          xl:w-[314px]
+          xl:w-[358px]
         ">
           <ButtonPrice />
         </div>
