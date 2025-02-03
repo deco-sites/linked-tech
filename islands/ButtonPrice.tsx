@@ -17,15 +17,18 @@ function ButtonPrice() {
   }, []);
 
   return (
-    <button class="
-      bg-neutrals-dark-100 xl:bg-primary-medium
-      font-semibold
-      py-[14px] px-[22px]
-      rounded-lg
-      text-[16px] xl:text-[18px]
-      text-primary-medium xl:text-neutrals-dark-100
-      w-full
-    ">
+    <button
+      class="
+        bg-neutrals-dark-100 xl:bg-primary-medium
+        font-semibold
+        py-[14px] px-[22px]
+        rounded-lg
+        text-[16px] xl:text-[18px]
+        text-primary-medium xl:text-neutrals-dark-100
+        w-full
+      "
+      onClick={() => window.location.href= "/monte-seu-plano"}
+    >
       Monte seu plano a partir de R$ {price}
     </button>
   );

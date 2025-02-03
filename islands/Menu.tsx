@@ -1,6 +1,7 @@
 import { signal } from "@preact/signals";
-import Icon from "site/components/ui/Icon.tsx";
+import Icon, { AvailableIcons } from "site/components/ui/Icon.tsx";
 import ButtonPrice from "site/islands/ButtonPrice.tsx";
+import { SocialItem } from "site/sections/Header.tsx";
 
 export interface MenuItem {
   /**
@@ -14,9 +15,10 @@ export interface MenuItem {
   pageUrl: string;
 }
 
- interface Props {
+interface Props {
   menu?: MenuItem[];
   menuMobile?: MenuItem[];
+  social?: SocialItem[];
 }
 
 // Menu State
@@ -33,6 +35,7 @@ const toggleMenu = () => {
 function Menu({
   menu,
   menuMobile,
+  social,
 }: Props ) {
   return (
     <>
@@ -126,6 +129,35 @@ function Menu({
             </li>
           ))}
         </ul>
+
+        {social && social.length > 0 && (
+          <ul
+            class="flex items-center xl:hidden"
+          >
+            {social.map((item, index) => (
+              <li
+                key={index}
+                class="
+                  py-8 pr-8
+                  last:pr-0
+                "
+              >
+                <a href={item.url} target="_blank" title={item.name}>
+                  <Icon
+                    id={`Social${item.name}` as AvailableIcons}
+                    width={32}
+                    height={32}
+                    strokeWidth={2}
+                    class={`
+                      ${item.name === "Facebook" ? "bg-white" : ""}
+                      text-neutrals-dark-100
+                    `}
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
 
       <div

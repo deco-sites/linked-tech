@@ -15,21 +15,22 @@ import * as $$$$$$7 from "./sections/Gallery.tsx";
 import * as $$$$$$8 from "./sections/Header.tsx";
 import * as $$$$$$9 from "./sections/Hero.tsx";
 import * as $$$$$$10 from "./sections/IconGroup.tsx";
-import * as $$$$$$11 from "./sections/OurClients.tsx";
-import * as $$$$$$12 from "./sections/PagePlans.tsx";
-import * as $$$$$$13 from "./sections/PagePlansIntegrations.tsx";
-import * as $$$$$$14 from "./sections/PagePlansOptionals.tsx";
-import * as $$$$$$15 from "./sections/PagePlansTabs.tsx";
-import * as $$$$$$16 from "./sections/PaginaSobreLinkedCultura.tsx";
-import * as $$$$$$17 from "./sections/Partners.tsx";
-import * as $$$$$$18 from "./sections/PlansOverviewCardGrid.tsx";
-import * as $$$$$$19 from "./sections/PlansOverviewCascadeGrid.tsx";
-import * as $$$$$$20 from "./sections/PlansOverviewListGrid.tsx";
-import * as $$$$$$21 from "./sections/PlansOverviewMain.tsx";
-import * as $$$$$$22 from "./sections/SupportInfo.tsx";
-import * as $$$$$$23 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$24 from "./sections/TitlePage.tsx";
-import * as $$$$$$25 from "./sections/WhyLinked.tsx";
+import * as $$$$$$11 from "./sections/MonteSeuPlano.tsx";
+import * as $$$$$$12 from "./sections/OurClients.tsx";
+import * as $$$$$$13 from "./sections/PagePlans.tsx";
+import * as $$$$$$14 from "./sections/PagePlansIntegrations.tsx";
+import * as $$$$$$15 from "./sections/PagePlansOptionals.tsx";
+import * as $$$$$$16 from "./sections/PagePlansTabs.tsx";
+import * as $$$$$$17 from "./sections/PaginaSobreLinkedCultura.tsx";
+import * as $$$$$$18 from "./sections/Partners.tsx";
+import * as $$$$$$19 from "./sections/PlansOverviewCardGrid.tsx";
+import * as $$$$$$20 from "./sections/PlansOverviewCascadeGrid.tsx";
+import * as $$$$$$21 from "./sections/PlansOverviewListGrid.tsx";
+import * as $$$$$$22 from "./sections/PlansOverviewMain.tsx";
+import * as $$$$$$23 from "./sections/SupportInfo.tsx";
+import * as $$$$$$24 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$25 from "./sections/TitlePage.tsx";
+import * as $$$$$$26 from "./sections/WhyLinked.tsx";
 
 const manifest = {
   "sections": {
@@ -44,21 +45,22 @@ const manifest = {
     "site/sections/Header.tsx": $$$$$$8,
     "site/sections/Hero.tsx": $$$$$$9,
     "site/sections/IconGroup.tsx": $$$$$$10,
-    "site/sections/OurClients.tsx": $$$$$$11,
-    "site/sections/PagePlans.tsx": $$$$$$12,
-    "site/sections/PagePlansIntegrations.tsx": $$$$$$13,
-    "site/sections/PagePlansOptionals.tsx": $$$$$$14,
-    "site/sections/PagePlansTabs.tsx": $$$$$$15,
-    "site/sections/PaginaSobreLinkedCultura.tsx": $$$$$$16,
-    "site/sections/Partners.tsx": $$$$$$17,
-    "site/sections/PlansOverviewCardGrid.tsx": $$$$$$18,
-    "site/sections/PlansOverviewCascadeGrid.tsx": $$$$$$19,
-    "site/sections/PlansOverviewListGrid.tsx": $$$$$$20,
-    "site/sections/PlansOverviewMain.tsx": $$$$$$21,
-    "site/sections/SupportInfo.tsx": $$$$$$22,
-    "site/sections/Theme/Theme.tsx": $$$$$$23,
-    "site/sections/TitlePage.tsx": $$$$$$24,
-    "site/sections/WhyLinked.tsx": $$$$$$25,
+    "site/sections/MonteSeuPlano.tsx": $$$$$$11,
+    "site/sections/OurClients.tsx": $$$$$$12,
+    "site/sections/PagePlans.tsx": $$$$$$13,
+    "site/sections/PagePlansIntegrations.tsx": $$$$$$14,
+    "site/sections/PagePlansOptionals.tsx": $$$$$$15,
+    "site/sections/PagePlansTabs.tsx": $$$$$$16,
+    "site/sections/PaginaSobreLinkedCultura.tsx": $$$$$$17,
+    "site/sections/Partners.tsx": $$$$$$18,
+    "site/sections/PlansOverviewCardGrid.tsx": $$$$$$19,
+    "site/sections/PlansOverviewCascadeGrid.tsx": $$$$$$20,
+    "site/sections/PlansOverviewListGrid.tsx": $$$$$$21,
+    "site/sections/PlansOverviewMain.tsx": $$$$$$22,
+    "site/sections/SupportInfo.tsx": $$$$$$23,
+    "site/sections/Theme/Theme.tsx": $$$$$$24,
+    "site/sections/TitlePage.tsx": $$$$$$25,
+    "site/sections/WhyLinked.tsx": $$$$$$26,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

@@ -48,7 +48,14 @@ export type AvailableIcons =
   | "Redes e franquias"
   | "Outros"
   
-  | "Share";
+  | "Share"
+  
+  | "Arrow"
+  
+  | "SocialYouTube"
+  | "SocialFacebook"
+  | "SocialInstagram"
+  | "SocialLinkedin";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
