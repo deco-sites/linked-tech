@@ -2,12 +2,19 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Menu, { MenuItem } from "site/islands/Menu.tsx";
 import ButtonPrice from "site/islands/ButtonPrice.tsx";
+
+export interface SocialItem {
+  name?: "Facebook" | "Instagram" | "Linkedin" | "YouTube";
+  url?: string;
+}
+
 interface Props {
   imageSrc?: ImageWidget;
   imageAlt?: string;
   imageTitle?: string;
   menu?: MenuItem[];
   menuMobile?: MenuItem[];
+  social?: SocialItem[];
 }
 
 function Header({
@@ -15,7 +22,8 @@ function Header({
   imageAlt,
   imageTitle,
   menu,
-  menuMobile
+  menuMobile,
+  social,
 }: Props) {
   return (
     <div class="
@@ -56,7 +64,7 @@ function Header({
           </a>
         )}
 
-        <Menu menu={menu} menuMobile={menuMobile} />
+        <Menu menu={menu} menuMobile={menuMobile} social={social} />
 
         <div class="
           hidden xl:block

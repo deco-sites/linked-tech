@@ -4,5 +4,23 @@
   "imageAlt": "Linked Tech",
   "imageTitle": "Linked Tech",
   "copyright": "Todos os direitos reservados 2024",
-  "address": "R. Iguatemi, 192 - 8º Andar - Itaim Bibi, São Paulo - SP"
+  "address": "R. Iguatemi, 192 - 8º Andar - Itaim Bibi, São Paulo - SP",
+  "social": [
+    {
+      "name": "YouTube",
+      "url": "https://youtube.com/linkedgourmet"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/linkedplataforma"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/linkedplataforma"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/linkedgourmet"
+    }
+  ]
 }

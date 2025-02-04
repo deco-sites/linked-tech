@@ -11,6 +11,10 @@
 
   --neutrals-dark-100: #003330;
   --neutrals-dark-80: rgba(0, 51, 48, 0.80);
+  --neutrals-dark-20: rgba(0, 51, 48, 0.20);
+  --neutrals-dark-10: rgba(0, 51, 48, 0.10);
+
+  --neutrals-white-20: rgba(255, 255, 255, 0.20);
 }
 
 @layer base {
@@ -18,6 +22,12 @@
   body {
     font-family: 'Public Sans', sans-serif;
     padding-top: 80px;
+  }
+
+  @media (min-width: 1280px) {
+    body {
+      padding-top: 96px;
+    }
   }
 
   .font-secondary {
@@ -59,6 +69,10 @@
   input[type=number] {
     -moz-appearance: textfield;
     appearance: textfield;
+  }
+
+  input, textarea, select, button {
+    outline: none;
   }
 }
 
@@ -350,3 +364,27 @@
   opacity: 0;
 }
 /* #endregion Accordion */
+
+
+/* #region Progress */
+progress {
+  border-radius: 2.5px;
+  height: 5px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--neutrals-dark-10);
+  border-radius: 2.5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--primary-medium);
+  border-radius: 2.5px;
+}
+
+@media (min-width: 1280px) {
+  progress::-webkit-progress-bar {
+    background-color: var(--neutrals-white-20);
+  }
+}
+/* #endregion Progress */

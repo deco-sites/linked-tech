@@ -39,6 +39,29 @@
     {
       "pageName": "Termos de uso",
       "pageUrl": "/termos-de-uso"
+    },
+    {
+      "pageName": "Privacidade",
+      "pageUrl": "/privacidade"
+    }
+  ],
+  "social": [
+    {
+      "icon": "YouTube",
+      "name": "YouTube",
+      "url": "https://youtube.com/linkedgourmet"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/linkedplataforma"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/linkedplataforma"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/linkedgourmet"
     }
   ]
 }
