@@ -1,0 +1,57 @@
+{
+  "name": "Contato",
+  "path": "/contato",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TitlePage.tsx",
+        "align": "Left",
+        "title": "Como podemos <strong>ajudar?</strong>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contato.tsx",
+        "text": "Nosso time está à disposição para te atender todos os dias, inclusive nos feriados. ",
+        "channels": [
+          {
+            "buttonIcon": "WhatsApp",
+            "buttonText": "Falar no Whatsapp",
+            "buttonUrl": "https://wa.me/5511999999999",
+            "description": "todos os dias, 24h"
+          },
+          {
+            "buttonIcon": "Telefone",
+            "buttonText": "Ligar  11 4780 4630",
+            "buttonUrl": "tel:+1147804630",
+            "description": "segunda a sexta, das 8:00 as 23:00"
+          },
+          {
+            "buttonIcon": "E-mail",
+            "buttonText": "Enviar email",
+            "buttonUrl": "mailto:email@dominio.com.br",
+            "description": "Respostas em até 2 dias úteis"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
