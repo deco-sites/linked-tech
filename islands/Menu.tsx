@@ -123,6 +123,7 @@ function Menu({
               <a
                 href={item.pageUrl}
                 title={item.pageName}
+                target={item.pageName === "Trabalhe conosco" ? "_blank" : "_self"}
               >
                 {item.pageName}
               </a>

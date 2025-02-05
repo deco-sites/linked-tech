@@ -388,3 +388,43 @@ progress::-webkit-progress-value {
   }
 }
 /* #endregion Progress */
+
+
+/* #region TermosDeUso/Privacidade */
+.content-terms-and-privacy > div:last-child,
+.content-terms-and-privacy > div > *:last-child {
+  padding-bottom: 0;
+}
+
+.content-terms-and-privacy > div {
+  padding-bottom: 56px;
+}
+
+.content-terms-and-privacy > div > * {
+  padding-bottom: 40px;
+}
+
+.content-terms-and-privacy p,
+.content-terms-and-privacy ul li {
+  color: var(--neutrals-dark-80);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content-terms-and-privacy ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.content-terms-and-privacy h3 {
+  color: var(--neutrals-dark-100);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 115%;
+  letter-spacing: -0.44px;
+}
+
+@media (min-width: 1280px) {
+  
+}
+/* #endregion TermosDeUso/Privacidade */
