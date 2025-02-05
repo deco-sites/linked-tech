@@ -28,9 +28,10 @@ import * as $$$$$$20 from "./sections/PlansOverviewCascadeGrid.tsx";
 import * as $$$$$$21 from "./sections/PlansOverviewListGrid.tsx";
 import * as $$$$$$22 from "./sections/PlansOverviewMain.tsx";
 import * as $$$$$$23 from "./sections/SupportInfo.tsx";
-import * as $$$$$$24 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$25 from "./sections/TitlePage.tsx";
-import * as $$$$$$26 from "./sections/WhyLinked.tsx";
+import * as $$$$$$24 from "./sections/TermosDeUsoEPrivacidade.tsx";
+import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$26 from "./sections/TitlePage.tsx";
+import * as $$$$$$27 from "./sections/WhyLinked.tsx";
 
 const manifest = {
   "sections": {
@@ -58,9 +59,10 @@ const manifest = {
     "site/sections/PlansOverviewListGrid.tsx": $$$$$$21,
     "site/sections/PlansOverviewMain.tsx": $$$$$$22,
     "site/sections/SupportInfo.tsx": $$$$$$23,
-    "site/sections/Theme/Theme.tsx": $$$$$$24,
-    "site/sections/TitlePage.tsx": $$$$$$25,
-    "site/sections/WhyLinked.tsx": $$$$$$26,
+    "site/sections/TermosDeUsoEPrivacidade.tsx": $$$$$$24,
+    "site/sections/Theme/Theme.tsx": $$$$$$25,
+    "site/sections/TitlePage.tsx": $$$$$$26,
+    "site/sections/WhyLinked.tsx": $$$$$$27,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
