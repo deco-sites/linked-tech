@@ -38,7 +38,7 @@ function Header({
       z-[90]
     ">
       <div class="
-        flex items-center
+        flex items-center justify-between
         mx-auto
         pt-[20px] xl:pt-0
         px-4
@@ -68,8 +68,6 @@ function Header({
 
         <div class="
           hidden xl:block
-          xl:absolute
-          xl:right-[1rem]
           xl:w-[358px]
         ">
           <ButtonPrice />

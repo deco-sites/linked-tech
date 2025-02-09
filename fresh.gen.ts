@@ -6,6 +6,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $Accordion from "./islands/Accordion.tsx";
 import * as $ButtonPrice from "./islands/ButtonPrice.tsx";
 import * as $ConteudoPrincipal from "./islands/ConteudoPrincipal.tsx";
+import * as $Establishments from "./islands/Establishments.tsx";
 import * as $FaqAccordion from "./islands/FaqAccordion.tsx";
 import * as $Menu from "./islands/Menu.tsx";
 import * as $MonteSeuPlano_FixedBar from "./islands/MonteSeuPlano/FixedBar.tsx";
@@ -24,6 +25,7 @@ const manifest = {
     "./islands/Accordion.tsx": $Accordion,
     "./islands/ButtonPrice.tsx": $ButtonPrice,
     "./islands/ConteudoPrincipal.tsx": $ConteudoPrincipal,
+    "./islands/Establishments.tsx": $Establishments,
     "./islands/FaqAccordion.tsx": $FaqAccordion,
     "./islands/Menu.tsx": $Menu,
     "./islands/MonteSeuPlano/FixedBar.tsx": $MonteSeuPlano_FixedBar,

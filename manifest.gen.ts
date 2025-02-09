@@ -31,8 +31,9 @@ import * as $$$$$$23 from "./sections/PlansOverviewMain.tsx";
 import * as $$$$$$24 from "./sections/SupportInfo.tsx";
 import * as $$$$$$25 from "./sections/TermosDeUsoEPrivacidade.tsx";
 import * as $$$$$$26 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$27 from "./sections/TitlePage.tsx";
-import * as $$$$$$28 from "./sections/WhyLinked.tsx";
+import * as $$$$$$27 from "./sections/TiposDeEstabelecimento.tsx";
+import * as $$$$$$28 from "./sections/TitlePage.tsx";
+import * as $$$$$$29 from "./sections/WhyLinked.tsx";
 
 const manifest = {
   "sections": {
@@ -63,8 +64,9 @@ const manifest = {
     "site/sections/SupportInfo.tsx": $$$$$$24,
     "site/sections/TermosDeUsoEPrivacidade.tsx": $$$$$$25,
     "site/sections/Theme/Theme.tsx": $$$$$$26,
-    "site/sections/TitlePage.tsx": $$$$$$27,
-    "site/sections/WhyLinked.tsx": $$$$$$28,
+    "site/sections/TiposDeEstabelecimento.tsx": $$$$$$27,
+    "site/sections/TitlePage.tsx": $$$$$$28,
+    "site/sections/WhyLinked.tsx": $$$$$$29,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
