@@ -5,8 +5,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/ConteudoPrincipal.tsx",
-        "price": "24,90"
+        "__resolveType": "ConteudoPrincipal"
       }
     },
     {

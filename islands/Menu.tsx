@@ -61,7 +61,6 @@ function Menu({
           xl:flex
           h-[calc(100vh-80px)] xl:h-auto
           left-0 xl:left-auto
-          ml-auto xl:ml-[48px]
           overflow-y-auto
           p-4 xl:p-0
           ${isOpen.value ? "top-[80px]" : "top-[-100vh]"} xl:top-auto
